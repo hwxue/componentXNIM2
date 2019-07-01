@@ -1,0 +1,6 @@
+framework module xhwIMTest {
+  umbrella header "xhwIMTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01A4EC65F240C2628B1EEB85680A3E94 /* NtalkerCoreLog.h in Headers */ = {isa = PBXBuildFile; fileRef = AE320259E8F4EF4354874A5010D48DC0 /* NtalkerCoreLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08ECDDAD24617760EF753D5BC342B079 /* linker.version in Sources */ = {isa = PBXBuildFile; fileRef = AF36939439B0C46E4DFE17E2413FD83A /* linker.version */; };
+		0BE25CB8F664AEA849DEE2A03831BAC2 /* NtalkerCoreMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D879D7A6659B5684ABBE6A20F680FBE /* NtalkerCoreMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F1814765CAF6D92102D6289B0FC7202 /* NSString+NTalkerExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6177E7C2382754BE9C8A8FCE20EE9F64 /* NSString+NTalkerExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10AD34B4ECE2C46DD67331A1B2B8C246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3318125794CB167D1076CBD37969D116 /* Foundation.framework */; };
+		10B9788C94D92799656BA258C68F9597 /* Pods-xhwIMTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCD33D3E688A4E7E8DDBD241304F9C8 /* Pods-xhwIMTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
+		13EC31F114309FFC7FA11E7D79F07F7E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A2958051825B4933237F3C7852CF7DE9 /* ReplaceMe.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1DABDE6CE07E95DF00FCBFBF24B6C6 /* QuartzCore.framework */; };
+		176870AB88210984F9C1615B73ED5092 /* NtalkerFlashServerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2F43FC612AD076B449741206A079B7 /* NtalkerFlashServerModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		186A929FD16CECA3C78C5863325756DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3318125794CB167D1076CBD37969D116 /* Foundation.framework */; };
+		18E122E124215B489DC011795BE3C9C7 /* NtalkerHTTPReportPushStatusTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0DA1158F29706685582B92BFB7D37B /* NtalkerHTTPReportPushStatusTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22BE925AE9FB6DF2FFE45E098E77FB32 /* Pods-xhwIMTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14D2624441B881F5A1E6C71CFFA090 /* Pods-xhwIMTest_Example-dummy.m */; };
+		28437FC9FBE5A11F9A1E61789285408B /* NtalkerPush in Sources */ = {isa = PBXBuildFile; fileRef = 49A117D18879AB8AF247A1F895780C08 /* NtalkerPush */; };
+		2CA488C51E438904D20F9A2AD100E109 /* NtalkerUtilityHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8192E1428379500C4D70F6A39BDE51 /* NtalkerUtilityHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
+		304BE6C405A73BAFE2254532EBF7D297 /* NSObject+NTalkerClass.h in Headers */ = {isa = PBXBuildFile; fileRef = BC760B1A9C35250AC1D4A8F193E4217F /* NSObject+NTalkerClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37E316086CA741FC9AC9C6D2E194184C /* NtalkerCocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 679F98AA5B9CA4898EAC9DB01AD1BFE9 /* NtalkerCocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		394F2025EC1066CFB2FDF4D271C22689 /* NtalkerAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B20534B3C42A4F244A8834056A165DD /* NtalkerAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B1490D71003EDCE114E3D421CED4A74 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4B05804550D2F12A89BDC07E4226D672 /* Info.plist */; };
+		3C6F1C227BA0CD1DDBA6F360ED228C81 /* Pods-xhwIMTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F8C45BD7E59C05734007395D4E8F48 /* Pods-xhwIMTest_Tests-dummy.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40845C1BDC83E5A03A4186F3ED01126B /* NtalkerErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C62FB77BA54C53E2778BFD4B7C96A54 /* NtalkerErrorCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		433C03D7ED8DD88A436AD02BD4DA42E4 /* Ntalker.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CFCBF369A71CA19480A98774270BD1 /* Ntalker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		445078CFA503270B05AE05960F4CDEEA /* NtalkerLeaveMsgSetInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC1E81795141A766ED5238B3E113D32 /* NtalkerLeaveMsgSetInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		459C0361A199DDFE654CE70FD27EB75F /* XNLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = EF45271AADFD4EE813865A789C827387 /* XNLocalizable.strings */; };
+		46B740B80E4BF6277431EACF51F613DA /* MessageType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C6F9EACD43AF125495813E3BC48F7C2 /* MessageType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		497FCD0176C4211595DEEA3CBE39E8BA /* NSObject+NTalkerProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB43A8A4732FC1908839D3FB20E569B /* NSObject+NTalkerProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4AEABC6107DFEE6AC39D65C09FA7E4 /* NtalkerTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED81437C0B75841E7F8DBC02934719E /* NtalkerTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5068461035F0E8882D8A9E02DE1A6CD7 /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = F506EBA2F6F7F86F0FBC5AC95D027DE8 /* CMakeLists.txt */; };
+		52F2AD78C78AA21CC7CE0076326DCC5B /* NTalkerIMCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD11EC72CB0E73D6D808F15274453B7 /* NTalkerIMCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5926F4DE28C8A8BA2206A020AABFC276 /* NtalkerDBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 828BE49D35815B653E677E9B0BD007CC /* NtalkerDBManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEC2A63086CD1739C09D0467B28F8BF /* NtalkerFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D3459EA163774889C27EF48D0F2B9F /* NtalkerFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FA843D03A6E4ED401ECF9C91C10EF66 /* NtalkerConfigureInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A8776569C1F3A5634AD24CB37E258C8A /* NtalkerConfigureInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6048A828F53B439D5725626B3218E200 /* xhwIMTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4815C4CDACDFB7E4016CB991C83906 /* xhwIMTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6106472A9975B78958153948465B21A8 /* NSObject+NTalkerCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C67BC4157B5358EDF7DA98E8226D7C /* NSObject+NTalkerCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		610CCA8916675FCFF2EC86C272518F3F /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 9CE22CA449A27CBDED486CE92AC04679 /* module.modulemap */; };
+		617A719EE8C693FF24B2CD200FBC5C53 /* XNLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = A161454FFD383197B5FCAF350EF58797 /* XNLocalizable.strings */; };
+		66638476A51E0E2FD659133F9939A7E8 /* NTalkerExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AF22483021525A47E05BAC1366CBF5E3 /* NTalkerExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C394016BDB17B8CFF07AC2B773D1863 /* XCTest.framework */; };
+		6AE5937E2C64017D997E6622C43DA44D /* NtalkerUIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F414B3E1764C3C00305C7794D027A0FF /* NtalkerUIConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C425AD3EC0D011C09EA283DA1680094 /* WBIMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B297DDCCF1004C3CB4FA8E99C51103 /* WBIMManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
+		6E24803DB797FE47194AFA30F9D46F27 /* NtalkerPushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4FE7F06FCB0E06B59C1C2FFAB24875 /* NtalkerPushManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F356B027B5EA7C4BD9B3540A48137A5 /* NtalkerEventModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BDE97B7F1B49A631A4F5817AE0757A /* NtalkerEventModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72C2BA7C7C33EF9AE4526B79EA967354 /* NtalkerPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC8AD022DA1E62D38FE7FE6D433851A /* NtalkerPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72C335F1FCE276D4CC63C35255439667 /* NtalkerLogTag.h in Headers */ = {isa = PBXBuildFile; fileRef = BA72FA068C3CA9C18B53C68AB3BB71BC /* NtalkerLogTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7431587BA87D9AF4662D66A126122136 /* NtalkerConsultRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 239278FC568A651135FD2511AF3C4C37 /* NtalkerConsultRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75056FDD11ED419BA089B06B86FA993E /* NSObject+NTalkerKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = BC722114DE398FC6200CE40DCD6025FB /* NSObject+NTalkerKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76DCF7A9FC843408ADEA42FEDCBAF9A0 /* NtalkerLeaveMsgDetailModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4739F81C2469A280BDC84E1898FF8E3C /* NtalkerLeaveMsgDetailModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C67C020DAF6A12ED41672175282EA03 /* NtalkerASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6A7F02207B5EEE2DCE3CC2177DCE00 /* NtalkerASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2CD608951A171F0DAF378E0A162406 /* WBXNIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F062DE4CEB9D9FE11A19CF391A88D0D /* WBXNIM.framework */; };
+		827B49C19BD50A46785EC3D679D7C2E1 /* NtalkerHTTPTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7044ED33018F6F9B541CB07ADB8C3B /* NtalkerHTTPTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87D6101495F3C3C35AC7CCD154830946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3318125794CB167D1076CBD37969D116 /* Foundation.framework */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
+		898131BB71E35F477DE910C2F66BD4B1 /* NtalkerTrailModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C730FDCF96C2AFBF137C43DD5A6E48 /* NtalkerTrailModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AD3DBE5FDCD3B227D714D4A97830AA /* xhwIMTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5CC83F06A62D980C5B2955204E9A4A /* xhwIMTest-dummy.m */; };
+		8A0BC02EF87949DF83E72A202CA2D6D7 /* NtalkerSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F13036C08D6F1558D2C2292E71A38A7A /* NtalkerSDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9114EF1B94B3062A346C32C3E222C80E /* WBXNIM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B582E0BA3AB698B72163A5BF16F3EF84 /* WBXNIM-dummy.m */; };
+		96EE0F2F27230FF8511085416B5661CC /* NtalkerLogLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 09182B924A36C832E537AFFDCED974DA /* NtalkerLogLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
+		A3012F4D85DA0AF38F71E943EFF78175 /* NTalkerGuestIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 75191D9692DB4A17CD5578A4C17880D0 /* NTalkerGuestIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C15BB35A3A5459278D91ED4F1F1120 /* NtalkerSiteInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F99F55F655AF0E4D297F4BC3A78CA7 /* NtalkerSiteInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		A67585E8458A575F3E7BF2E5F27E4709 /* NTalkerGuestIMKit in Sources */ = {isa = PBXBuildFile; fileRef = 8EC2D8224EABCA020768FA3595176917 /* NTalkerGuestIMKit */; };
+		A8C92E4EC9905F1607C5CC58605F0275 /* NtalkerTemplateRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = F99B300DBC08D8D016598A21A7766D70 /* NtalkerTemplateRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9AED123A4B4EE4ECA101F485DC2F67A /* NtalkerUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9CEEB53596836C4A5368388E061F98 /* NtalkerUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB0B7C4B3BD5EAF625FD1DFFA64A4232 /* NTalkerIMCore in Sources */ = {isa = PBXBuildFile; fileRef = 81AE3EAC56E3AD11ADBF8CFE04E9CE71 /* NTalkerIMCore */; };
+		B0799099072A04D401AE19C0B245AD0A /* NTalkerExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 68452384A529D302B6F85B71D98C1D73 /* NTalkerExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3318125794CB167D1076CBD37969D116 /* Foundation.framework */; };
+		B41781AF4FD455A333A3182D5BE8E719 /* WBXNIM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0115882EEB2E348944C0BE4FDBF7C23 /* WBXNIM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4B69ADD2A2F1CB1F279ADF4FA188D65 /* NTalkerChatTableHeaderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F29CF8141F94C3B75DD6BB21B9CB850D /* NTalkerChatTableHeaderModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B60BA43838520B5ECA51D04F90234A53 /* NtalkerLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 553B0FFDC47A8143148F5E35B9ED0B6E /* NtalkerLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BBF20CAE38DCBAB90FB7FFB5F383D9B6 /* NtalkerChatDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CB47737AE509234178F6EF582DDF6D /* NtalkerChatDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC111586E2BACE443D9788278A0652BD /* NtalkerDeviceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA0B5B03855C69F2E8449F7AB24470C /* NtalkerDeviceModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA8480328128C6CE67D57C8EA582DC86 /* NtalkerChatParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 852F4B6D86B563FF9244067C1EACB5DA /* NtalkerChatParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBEEF8AA7CB5B588D16B5388633626BA /* NtalkerEvaluateSetInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBBBAA6DC8838A74A8B13DEE7B8C62B /* NtalkerEvaluateSetInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB6FA3DC5D548D09683569E3A11D32C /* NTalkerPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD26DE40135633C6B2DB329FAFCB916 /* NTalkerPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF1F949B0252DE29568FBCD2A25AD27 /* WBIMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F801020E366E7FBE0E230462FE32D8C2 /* WBIMManager.m */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D1CB851E7ABDB9A654BC83E0B7EEBE26 /* NtalkerIMCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D57E7AF70E85337A820F99D71AA87C2 /* NtalkerIMCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D72F691564335B582665045A8BC73843 /* NTalkerPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A2BD98E5B9D635E809B6167629BA67 /* NTalkerPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8CFD5909154D7B3FC7F33A6761F82A9 /* Pods-xhwIMTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B03E883385E7367E3992C00D8ECC966C /* Pods-xhwIMTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0F67F316AF3C3D355D004D5F88E771 /* NtalkerStorageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DFFC241D8CF8045B7A8ECB6231E6DD /* NtalkerStorageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2A6A1E8FC0B47F3AC581B81820B942 /* NtalkerASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = B44AC873AAF7A643EC0004709658A8FB /* NtalkerASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F21F00D1A6FA52B283E314ABA9F57C /* UIKit.framework */; };
+		E23DDB7E8FD7E4E58765EE302AE23EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3318125794CB167D1076CBD37969D116 /* Foundation.framework */; };
+		E242B05F6AEFA9768CFAB99208736704 /* NtalkerCoreConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 4603C31B064E96A1AC589402DAD55710 /* NtalkerCoreConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E24DCFEAE78EA63D1AD49DFC7B7E7AF3 /* XNLocalizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 4B82946D4CD106803AA1EDF38E8019F3 /* XNLocalizable.strings */; };
+		E39804857A3D6D2F58C7774BC743BABB /* NtalkerLog.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E14CFA5B13B370FFDACCA1F3C2D712 /* NtalkerLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		EDB14A5696997B622EBD22A4A5606242 /* NTalkerProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A0DA9D7249AF984AFDE1B41EAE2058 /* NTalkerProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDCFF312A24BB3CC0BA3DAEA415E858F /* NtalkerLeaveMessageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 19724639A34F4072DA4410EA4BC59051 /* NtalkerLeaveMessageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33ADD7FD2495DF4F4355665CA2681CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A395F350C6B072CD9864D2712C7DD0;
+			remoteInfo = WBXNIM;
+		};
+		511E6C4B2BCB4FCEFBA1C37D57E0D486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BB784AD4CDD820E21E564FA90E2993;
+			remoteInfo = xhwIMTest;
+		};
+		618C4CBF4AD8B93DF47C03A07D7C84B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		71227C9B603E561CD0EED3BB93EC6CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A395F350C6B072CD9864D2712C7DD0;
+			remoteInfo = WBXNIM;
+		};
+		CFB465C6CA34AF14B7A26343ECCBCAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 945E4D03CCB4027199AD4184889F0CF1;
+			remoteInfo = "Pods-xhwIMTest_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09182B924A36C832E537AFFDCED974DA /* NtalkerLogLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerLogLib.h; sourceTree = "<group>"; };
+		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		0A9CEEB53596836C4A5368388E061F98 /* NtalkerUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerUserInfo.h; sourceTree = "<group>"; };
+		0C394016BDB17B8CFF07AC2B773D1863 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0D665C535E6D0BF4604DC55AAF52FE99 /* WBXNIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WBXNIM.framework; path = WBXNIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		18B297DDCCF1004C3CB4FA8E99C51103 /* WBIMManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBIMManager.h; path = WBXNIM/Classes/WBIMManager.h; sourceTree = "<group>"; };
+		19724639A34F4072DA4410EA4BC59051 /* NtalkerLeaveMessageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerLeaveMessageController.h; sourceTree = "<group>"; };
+		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		1BBBBAA6DC8838A74A8B13DEE7B8C62B /* NtalkerEvaluateSetInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerEvaluateSetInfoModel.h; sourceTree = "<group>"; };
+		1C6F9EACD43AF125495813E3BC48F7C2 /* MessageType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MessageType.h; sourceTree = "<group>"; };
+		1D879D7A6659B5684ABBE6A20F680FBE /* NtalkerCoreMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerCoreMessage.h; sourceTree = "<group>"; };
+		1F1DABDE6CE07E95DF00FCBFBF24B6C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		22EC2AEB25AA49352B0F89C026B4014D /* Pods-xhwIMTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xhwIMTest_Example.modulemap"; sourceTree = "<group>"; };
+		239278FC568A651135FD2511AF3C4C37 /* NtalkerConsultRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerConsultRecord.h; sourceTree = "<group>"; };
+		23F99F55F655AF0E4D297F4BC3A78CA7 /* NtalkerSiteInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerSiteInfo.h; sourceTree = "<group>"; };
+		256EF2C7F7F49B3FC7026C58B333C863 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2696E5AB1358CCB597BE267B841908F1 /* Pods-xhwIMTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xhwIMTest_Tests.modulemap"; sourceTree = "<group>"; };
+		29C7D45873711901E54BB3B8A3CAE4E3 /* xhwIMTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = xhwIMTest.modulemap; sourceTree = "<group>"; };
+		2B20534B3C42A4F244A8834056A165DD /* NtalkerAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerAssertMacros.h; sourceTree = "<group>"; };
+		3318125794CB167D1076CBD37969D116 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		3B14D2624441B881F5A1E6C71CFFA090 /* Pods-xhwIMTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xhwIMTest_Example-dummy.m"; sourceTree = "<group>"; };
+		3CDFA4A66EC5416B5D86A9EA9054B1C6 /* xhwIMTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "xhwIMTest-Info.plist"; sourceTree = "<group>"; };
+		3D5CC83F06A62D980C5B2955204E9A4A /* xhwIMTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "xhwIMTest-dummy.m"; sourceTree = "<group>"; };
+		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		3F062DE4CEB9D9FE11A19CF391A88D0D /* WBXNIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WBXNIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		4603C31B064E96A1AC589402DAD55710 /* NtalkerCoreConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerCoreConstant.h; sourceTree = "<group>"; };
+		4739F81C2469A280BDC84E1898FF8E3C /* NtalkerLeaveMsgDetailModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerLeaveMsgDetailModel.h; sourceTree = "<group>"; };
+		49A117D18879AB8AF247A1F895780C08 /* NtalkerPush */ = {isa = PBXFileReference; includeInIndex = 1; path = NtalkerPush; sourceTree = "<group>"; };
+		4B05804550D2F12A89BDC07E4226D672 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B82946D4CD106803AA1EDF38E8019F3 /* XNLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = XNLocalizable.strings; path = "zh-Hans.lproj/XNLocalizable.strings"; sourceTree = "<group>"; };
+		4C645C2F9C0CD1054E38C9A84FBD318A /* WBXNIM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WBXNIM-Info.plist"; sourceTree = "<group>"; };
+		4D0DA1158F29706685582B92BFB7D37B /* NtalkerHTTPReportPushStatusTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerHTTPReportPushStatusTool.h; sourceTree = "<group>"; };
+		4DF707C483174BAF00C46C2E4494F6BD /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		4FCEE73C4111C0300D6DFCCC395CC7CD /* Pods-xhwIMTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xhwIMTest_Example-frameworks.sh"; sourceTree = "<group>"; };
+		553B0FFDC47A8143148F5E35B9ED0B6E /* NtalkerLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerLogMacros.h; sourceTree = "<group>"; };
+		55A7C9F301A5DB9B76699B0181B2437A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		578F5BCC2A8707D717ACCD01D357EC34 /* WBXNIM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBXNIM-prefix.pch"; sourceTree = "<group>"; };
+		59A8E0499796CF95E777680D640E85F7 /* Pods-xhwIMTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xhwIMTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC1E81795141A766ED5238B3E113D32 /* NtalkerLeaveMsgSetInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerLeaveMsgSetInfoModel.h; sourceTree = "<group>"; };
+		5D57E7AF70E85337A820F99D71AA87C2 /* NtalkerIMCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerIMCenter.h; sourceTree = "<group>"; };
+		5E4FE7F06FCB0E06B59C1C2FFAB24875 /* NtalkerPushManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerPushManager.h; sourceTree = "<group>"; };
+		6177E7C2382754BE9C8A8FCE20EE9F64 /* NSString+NTalkerExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+NTalkerExtension.h"; sourceTree = "<group>"; };
+		64870D7BC901D1BCC3DD8BB006947994 /* Pods-xhwIMTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xhwIMTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64C987EB3EFF4B21E53EC2E83D13063D /* WBXNIM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBXNIM.modulemap; sourceTree = "<group>"; };
+		64E29E92CCFD23CFF42E1484A2F57B72 /* Pods-xhwIMTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xhwIMTest_Tests-Info.plist"; sourceTree = "<group>"; };
+		65F83B3BC84F1DC657266CC7EDF6FCA8 /* Pods-xhwIMTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xhwIMTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		679F98AA5B9CA4898EAC9DB01AD1BFE9 /* NtalkerCocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerCocoaLumberjack.h; sourceTree = "<group>"; };
+		68452384A529D302B6F85B71D98C1D73 /* NTalkerExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTalkerExtensionConst.h; sourceTree = "<group>"; };
+		6A383C2C590B7144FE11808B2F6CBC80 /* xhwIMTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "xhwIMTest-prefix.pch"; sourceTree = "<group>"; };
+		6BB43A8A4732FC1908839D3FB20E569B /* NSObject+NTalkerProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+NTalkerProperty.h"; sourceTree = "<group>"; };
+		6C45A5ED5B19AEDDF0D7D19AC5D27053 /* xhwIMTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = xhwIMTest.xcconfig; sourceTree = "<group>"; };
+		6CCFA8F921F28D6CA1C4DF80F8D69BC9 /* Pods-xhwIMTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xhwIMTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6F7044ED33018F6F9B541CB07ADB8C3B /* NtalkerHTTPTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerHTTPTool.h; sourceTree = "<group>"; };
+		71BDE97B7F1B49A631A4F5817AE0757A /* NtalkerEventModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerEventModel.h; sourceTree = "<group>"; };
+		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		74D38C96403712147DB0FA1066068435 /* Pods_xhwIMTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_xhwIMTest_Tests.framework; path = "Pods-xhwIMTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75191D9692DB4A17CD5578A4C17880D0 /* NTalkerGuestIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTalkerGuestIMKit.h; sourceTree = "<group>"; };
+		77F8C45BD7E59C05734007395D4E8F48 /* Pods-xhwIMTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xhwIMTest_Tests-dummy.m"; sourceTree = "<group>"; };
+		7AD26DE40135633C6B2DB329FAFCB916 /* NTalkerPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTalkerPropertyKey.h; sourceTree = "<group>"; };
+		7ED81437C0B75841E7F8DBC02934719E /* NtalkerTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerTTYLogger.h; sourceTree = "<group>"; };
+		81AE3EAC56E3AD11ADBF8CFE04E9CE71 /* NTalkerIMCore */ = {isa = PBXFileReference; includeInIndex = 1; path = NTalkerIMCore; sourceTree = "<group>"; };
+		828BE49D35815B653E677E9B0BD007CC /* NtalkerDBManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerDBManager.h; sourceTree = "<group>"; };
+		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		852F4B6D86B563FF9244067C1EACB5DA /* NtalkerChatParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerChatParams.h; sourceTree = "<group>"; };
+		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		8A8192E1428379500C4D70F6A39BDE51 /* NtalkerUtilityHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerUtilityHelper.h; sourceTree = "<group>"; };
+		8DA0B5B03855C69F2E8449F7AB24470C /* NtalkerDeviceModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerDeviceModel.h; sourceTree = "<group>"; };
+		8DCD33D3E688A4E7E8DDBD241304F9C8 /* Pods-xhwIMTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xhwIMTest_Example-umbrella.h"; sourceTree = "<group>"; };
+		8EC2D8224EABCA020768FA3595176917 /* NTalkerGuestIMKit */ = {isa = PBXFileReference; includeInIndex = 1; path = NTalkerGuestIMKit; sourceTree = "<group>"; };
+		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		9365CB96B1DA4F340322BC9259434977 /* WBXNIM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBXNIM.xcconfig; sourceTree = "<group>"; };
+		94DE6C2B4D039F904D4ADF4024A3ED80 /* xhwIMTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = xhwIMTest.framework; path = xhwIMTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FE9304888888D54882A0AC210D0B52 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		973F2AA6CF66CDF710653A8AAC310367 /* Pods-xhwIMTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xhwIMTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		9C62FB77BA54C53E2778BFD4B7C96A54 /* NtalkerErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerErrorCode.h; sourceTree = "<group>"; };
+		9CE22CA449A27CBDED486CE92AC04679 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		9D2F43FC612AD076B449741206A079B7 /* NtalkerFlashServerModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerFlashServerModel.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC8AD022DA1E62D38FE7FE6D433851A /* NtalkerPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerPush.h; sourceTree = "<group>"; };
+		A161454FFD383197B5FCAF350EF58797 /* XNLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = XNLocalizable.strings; path = Base.lproj/XNLocalizable.strings; sourceTree = "<group>"; };
+		A18A3053102B093FA43D8FF079E82E67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		A2958051825B4933237F3C7852CF7DE9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = xhwIMTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A3C730FDCF96C2AFBF137C43DD5A6E48 /* NtalkerTrailModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerTrailModel.h; sourceTree = "<group>"; };
+		A5F21F00D1A6FA52B283E314ABA9F57C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A8776569C1F3A5634AD24CB37E258C8A /* NtalkerConfigureInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerConfigureInfo.h; sourceTree = "<group>"; };
+		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		AE320259E8F4EF4354874A5010D48DC0 /* NtalkerCoreLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerCoreLog.h; sourceTree = "<group>"; };
+		AF22483021525A47E05BAC1366CBF5E3 /* NTalkerExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTalkerExtension.h; sourceTree = "<group>"; };
+		AF36939439B0C46E4DFE17E2413FD83A /* linker.version */ = {isa = PBXFileReference; includeInIndex = 1; path = linker.version; sourceTree = "<group>"; };
+		B03E883385E7367E3992C00D8ECC966C /* Pods-xhwIMTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xhwIMTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B2CFCBF369A71CA19480A98774270BD1 /* Ntalker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Ntalker.h; sourceTree = "<group>"; };
+		B44AC873AAF7A643EC0004709658A8FB /* NtalkerASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerASLLogCapture.h; sourceTree = "<group>"; };
+		B582E0BA3AB698B72163A5BF16F3EF84 /* WBXNIM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBXNIM-dummy.m"; sourceTree = "<group>"; };
+		BA72FA068C3CA9C18B53C68AB3BB71BC /* NtalkerLogTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerLogTag.h; sourceTree = "<group>"; };
+		BB1B26923046BAA40E0F1984EB89A474 /* Pods-xhwIMTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xhwIMTest_Example-Info.plist"; sourceTree = "<group>"; };
+		BC722114DE398FC6200CE40DCD6025FB /* NSObject+NTalkerKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+NTalkerKeyValue.h"; sourceTree = "<group>"; };
+		BC760B1A9C35250AC1D4A8F193E4217F /* NSObject+NTalkerClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+NTalkerClass.h"; sourceTree = "<group>"; };
+		BEAB33F57ABC9D923C30CF63D8821112 /* Pods-xhwIMTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xhwIMTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C0115882EEB2E348944C0BE4FDBF7C23 /* WBXNIM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBXNIM-umbrella.h"; sourceTree = "<group>"; };
+		C4E14CFA5B13B370FFDACCA1F3C2D712 /* NtalkerLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerLog.h; sourceTree = "<group>"; };
+		C73171AE4348D8C340EB16223B14B1AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C82A45177837437F92F709DF09CCECA9 /* Pods-xhwIMTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xhwIMTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB4815C4CDACDFB7E4016CB991C83906 /* xhwIMTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "xhwIMTest-umbrella.h"; sourceTree = "<group>"; };
+		D1C67BC4157B5358EDF7DA98E8226D7C /* NSObject+NTalkerCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+NTalkerCoding.h"; sourceTree = "<group>"; };
+		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		D7A0DA9D7249AF984AFDE1B41EAE2058 /* NTalkerProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTalkerProperty.h; sourceTree = "<group>"; };
+		D7DFFC241D8CF8045B7A8ECB6231E6DD /* NtalkerStorageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerStorageManager.h; sourceTree = "<group>"; };
+		D9CB47737AE509234178F6EF582DDF6D /* NtalkerChatDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerChatDelegate.h; sourceTree = "<group>"; };
+		D9F122EBA9AE1967C00736F36AF9EDFC /* Pods-xhwIMTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xhwIMTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD11EC72CB0E73D6D808F15274453B7 /* NTalkerIMCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTalkerIMCore.h; sourceTree = "<group>"; };
+		DB481F798BE7FEDA027487868F1E710B /* xhwIMTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = xhwIMTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		E214595309A2645B9A3B6D90702748C0 /* WBXNIM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WBXNIM.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2D3459EA163774889C27EF48D0F2B9F /* NtalkerFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerFileLogger.h; sourceTree = "<group>"; };
+		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		E7835F9512FB6373B8A19F0DEF84649D /* Pods_xhwIMTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_xhwIMTest_Example.framework; path = "Pods-xhwIMTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EE6A7F02207B5EEE2DCE3CC2177DCE00 /* NtalkerASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerASLLogger.h; sourceTree = "<group>"; };
+		EED126FD8F0C431D720DE02211129CFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF45271AADFD4EE813865A789C827387 /* XNLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = XNLocalizable.strings; path = en.lproj/XNLocalizable.strings; sourceTree = "<group>"; };
+		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		F0A2BD98E5B9D635E809B6167629BA67 /* NTalkerPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTalkerPropertyType.h; sourceTree = "<group>"; };
+		F13036C08D6F1558D2C2292E71A38A7A /* NtalkerSDKCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerSDKCore.h; sourceTree = "<group>"; };
+		F29CF8141F94C3B75DD6BB21B9CB850D /* NTalkerChatTableHeaderModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NTalkerChatTableHeaderModel.h; sourceTree = "<group>"; };
+		F414B3E1764C3C00305C7794D027A0FF /* NtalkerUIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerUIConfig.h; sourceTree = "<group>"; };
+		F506EBA2F6F7F86F0FBC5AC95D027DE8 /* CMakeLists.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = CMakeLists.txt; sourceTree = "<group>"; };
+		F801020E366E7FBE0E230462FE32D8C2 /* WBIMManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBIMManager.m; path = WBXNIM/Classes/WBIMManager.m; sourceTree = "<group>"; };
+		F99B300DBC08D8D016598A21A7766D70 /* NtalkerTemplateRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NtalkerTemplateRecord.h; sourceTree = "<group>"; };
+		FB5CECA7E94C592F1D903C069F622CD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FC76E38DAD6A8FF436273D36DBC8A9EB /* Pods-xhwIMTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xhwIMTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2798DBCBC3A6E7C55E22B8435B83C4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23DDB7E8FD7E4E58765EE302AE23EBE /* Foundation.framework in Frameworks */,
+				7D2CD608951A171F0DAF378E0A162406 /* WBXNIM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC69412570C9AED6C09732D6ACE514F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D6101495F3C3C35AC7CCD154830946 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EFE42F49CDA8BE680FEB7D9E7A0072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186A929FD16CECA3C78C5863325756DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1031B29E90414A5921B96636F3C2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AD34B4ECE2C46DD67331A1B2B8C246 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023A2F6D54F639498FA0E50C84A4D151 /* NTalkerGuestIMKit.framework */ = {
+			isa = PBXGroup;
+			children = (
+				A18A3053102B093FA43D8FF079E82E67 /* Info.plist */,
+				8EC2D8224EABCA020768FA3595176917 /* NTalkerGuestIMKit */,
+				5D43D546BA0D6F82A8E00A3933EFD673 /* Headers */,
+				3FA36F4C36F5262FE2D0E93804D566CD /* Modules */,
+			);
+			name = NTalkerGuestIMKit.framework;
+			path = WBXNIM/Classes/NTalkerGuestIMKit.framework;
+			sourceTree = "<group>";
+		};
+		206A62772A43389F0D008F842305617D /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F9EACD43AF125495813E3BC48F7C2 /* MessageType.h */,
+				BC760B1A9C35250AC1D4A8F193E4217F /* NSObject+NTalkerClass.h */,
+				D1C67BC4157B5358EDF7DA98E8226D7C /* NSObject+NTalkerCoding.h */,
+				BC722114DE398FC6200CE40DCD6025FB /* NSObject+NTalkerKeyValue.h */,
+				6BB43A8A4732FC1908839D3FB20E569B /* NSObject+NTalkerProperty.h */,
+				6177E7C2382754BE9C8A8FCE20EE9F64 /* NSString+NTalkerExtension.h */,
+				B44AC873AAF7A643EC0004709658A8FB /* NtalkerASLLogCapture.h */,
+				EE6A7F02207B5EEE2DCE3CC2177DCE00 /* NtalkerASLLogger.h */,
+				2B20534B3C42A4F244A8834056A165DD /* NtalkerAssertMacros.h */,
+				F29CF8141F94C3B75DD6BB21B9CB850D /* NTalkerChatTableHeaderModel.h */,
+				679F98AA5B9CA4898EAC9DB01AD1BFE9 /* NtalkerCocoaLumberjack.h */,
+				A8776569C1F3A5634AD24CB37E258C8A /* NtalkerConfigureInfo.h */,
+				4603C31B064E96A1AC589402DAD55710 /* NtalkerCoreConstant.h */,
+				AE320259E8F4EF4354874A5010D48DC0 /* NtalkerCoreLog.h */,
+				1D879D7A6659B5684ABBE6A20F680FBE /* NtalkerCoreMessage.h */,
+				828BE49D35815B653E677E9B0BD007CC /* NtalkerDBManager.h */,
+				8DA0B5B03855C69F2E8449F7AB24470C /* NtalkerDeviceModel.h */,
+				9C62FB77BA54C53E2778BFD4B7C96A54 /* NtalkerErrorCode.h */,
+				1BBBBAA6DC8838A74A8B13DEE7B8C62B /* NtalkerEvaluateSetInfoModel.h */,
+				71BDE97B7F1B49A631A4F5817AE0757A /* NtalkerEventModel.h */,
+				AF22483021525A47E05BAC1366CBF5E3 /* NTalkerExtension.h */,
+				68452384A529D302B6F85B71D98C1D73 /* NTalkerExtensionConst.h */,
+				E2D3459EA163774889C27EF48D0F2B9F /* NtalkerFileLogger.h */,
+				9D2F43FC612AD076B449741206A079B7 /* NtalkerFlashServerModel.h */,
+				4D0DA1158F29706685582B92BFB7D37B /* NtalkerHTTPReportPushStatusTool.h */,
+				6F7044ED33018F6F9B541CB07ADB8C3B /* NtalkerHTTPTool.h */,
+				5D57E7AF70E85337A820F99D71AA87C2 /* NtalkerIMCenter.h */,
+				DAD11EC72CB0E73D6D808F15274453B7 /* NTalkerIMCore.h */,
+				4739F81C2469A280BDC84E1898FF8E3C /* NtalkerLeaveMsgDetailModel.h */,
+				5CC1E81795141A766ED5238B3E113D32 /* NtalkerLeaveMsgSetInfoModel.h */,
+				C4E14CFA5B13B370FFDACCA1F3C2D712 /* NtalkerLog.h */,
+				09182B924A36C832E537AFFDCED974DA /* NtalkerLogLib.h */,
+				553B0FFDC47A8143148F5E35B9ED0B6E /* NtalkerLogMacros.h */,
+				BA72FA068C3CA9C18B53C68AB3BB71BC /* NtalkerLogTag.h */,
+				D7A0DA9D7249AF984AFDE1B41EAE2058 /* NTalkerProperty.h */,
+				7AD26DE40135633C6B2DB329FAFCB916 /* NTalkerPropertyKey.h */,
+				F0A2BD98E5B9D635E809B6167629BA67 /* NTalkerPropertyType.h */,
+				F13036C08D6F1558D2C2292E71A38A7A /* NtalkerSDKCore.h */,
+				23F99F55F655AF0E4D297F4BC3A78CA7 /* NtalkerSiteInfo.h */,
+				D7DFFC241D8CF8045B7A8ECB6231E6DD /* NtalkerStorageManager.h */,
+				F99B300DBC08D8D016598A21A7766D70 /* NtalkerTemplateRecord.h */,
+				7ED81437C0B75841E7F8DBC02934719E /* NtalkerTTYLogger.h */,
+				0A9CEEB53596836C4A5368388E061F98 /* NtalkerUserInfo.h */,
+				8A8192E1428379500C4D70F6A39BDE51 /* NtalkerUtilityHelper.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		2B5472B71978354A9E8AFE3A9E36722C /* WBXNIM */ = {
+			isa = PBXGroup;
+			children = (
+				18B297DDCCF1004C3CB4FA8E99C51103 /* WBIMManager.h */,
+				F801020E366E7FBE0E230462FE32D8C2 /* WBIMManager.m */,
+				DE184CC45FC0DA755114501FE1F285AC /* Lanage */,
+				023A2F6D54F639498FA0E50C84A4D151 /* NTalkerGuestIMKit.framework */,
+				D591EA34929449D942FBF0862E58EB43 /* NTalkerIMCore.framework */,
+				5A77D3FA57600471327B2DF1831B3098 /* NtalkerPush.framework */,
+				D442AE9A32B43FE4E57FEB1D5CAAD8E4 /* Pod */,
+				992745E16A2F072218C562B5F742B4BB /* Support Files */,
+			);
+			name = WBXNIM;
+			path = ../../../WBXNIM;
+			sourceTree = "<group>";
+		};
+		3EB0EEBAEACF72743030876F02214B18 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4DF707C483174BAF00C46C2E4494F6BD /* module.modulemap */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3FA36F4C36F5262FE2D0E93804D566CD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				96FE9304888888D54882A0AC210D0B52 /* module.modulemap */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4092A6560489DCDB88A6802F8B81E599 /* Pods-xhwIMTest_Example */ = {
+			isa = PBXGroup;
+			children = (
+				22EC2AEB25AA49352B0F89C026B4014D /* Pods-xhwIMTest_Example.modulemap */,
+				65F83B3BC84F1DC657266CC7EDF6FCA8 /* Pods-xhwIMTest_Example-acknowledgements.markdown */,
+				C82A45177837437F92F709DF09CCECA9 /* Pods-xhwIMTest_Example-acknowledgements.plist */,
+				3B14D2624441B881F5A1E6C71CFFA090 /* Pods-xhwIMTest_Example-dummy.m */,
+				4FCEE73C4111C0300D6DFCCC395CC7CD /* Pods-xhwIMTest_Example-frameworks.sh */,
+				BB1B26923046BAA40E0F1984EB89A474 /* Pods-xhwIMTest_Example-Info.plist */,
+				8DCD33D3E688A4E7E8DDBD241304F9C8 /* Pods-xhwIMTest_Example-umbrella.h */,
+				D9F122EBA9AE1967C00736F36AF9EDFC /* Pods-xhwIMTest_Example.debug.xcconfig */,
+				BEAB33F57ABC9D923C30CF63D8821112 /* Pods-xhwIMTest_Example.release.xcconfig */,
+			);
+			name = "Pods-xhwIMTest_Example";
+			path = "Target Support Files/Pods-xhwIMTest_Example";
+			sourceTree = "<group>";
+		};
+		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
+				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
+				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
+				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
+				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
+				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		4DD88090C4608D7FEF13CF5BF01BF55F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29C7D45873711901E54BB3B8A3CAE4E3 /* xhwIMTest.modulemap */,
+				6C45A5ED5B19AEDDF0D7D19AC5D27053 /* xhwIMTest.xcconfig */,
+				3D5CC83F06A62D980C5B2955204E9A4A /* xhwIMTest-dummy.m */,
+				3CDFA4A66EC5416B5D86A9EA9054B1C6 /* xhwIMTest-Info.plist */,
+				6A383C2C590B7144FE11808B2F6CBC80 /* xhwIMTest-prefix.pch */,
+				CB4815C4CDACDFB7E4016CB991C83906 /* xhwIMTest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/xhwIMTest";
+			sourceTree = "<group>";
+		};
+		58E4747288F7C3B78C25B68B9595105D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4092A6560489DCDB88A6802F8B81E599 /* Pods-xhwIMTest_Example */,
+				80EF10ACD30C182093D47A84A97E2307 /* Pods-xhwIMTest_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5A77D3FA57600471327B2DF1831B3098 /* NtalkerPush.framework */ = {
+			isa = PBXGroup;
+			children = (
+				4B05804550D2F12A89BDC07E4226D672 /* Info.plist */,
+				49A117D18879AB8AF247A1F895780C08 /* NtalkerPush */,
+				A1D1443AA96947DCC515CAA664068364 /* Headers */,
+				E609AEBCDC271C3D6BEC6B5354810DC5 /* Modules */,
+			);
+			name = NtalkerPush.framework;
+			path = WBXNIM/Classes/NtalkerPush.framework;
+			sourceTree = "<group>";
+		};
+		5BE0B12A99B6A942F25DAD9BD99AD67E /* xhwIMTest */ = {
+			isa = PBXGroup;
+			children = (
+				A2958051825B4933237F3C7852CF7DE9 /* ReplaceMe.m */,
+				BF0098C921F08F6DD98DBE8FFA2F07BC /* Pod */,
+				4DD88090C4608D7FEF13CF5BF01BF55F /* Support Files */,
+			);
+			name = xhwIMTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5D43D546BA0D6F82A8E00A3933EFD673 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B2CFCBF369A71CA19480A98774270BD1 /* Ntalker.h */,
+				D9CB47737AE509234178F6EF582DDF6D /* NtalkerChatDelegate.h */,
+				852F4B6D86B563FF9244067C1EACB5DA /* NtalkerChatParams.h */,
+				239278FC568A651135FD2511AF3C4C37 /* NtalkerConsultRecord.h */,
+				75191D9692DB4A17CD5578A4C17880D0 /* NTalkerGuestIMKit.h */,
+				19724639A34F4072DA4410EA4BC59051 /* NtalkerLeaveMessageController.h */,
+				A3C730FDCF96C2AFBF137C43DD5A6E48 /* NtalkerTrailModel.h */,
+				F414B3E1764C3C00305C7794D027A0FF /* NtalkerUIConfig.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		80EF10ACD30C182093D47A84A97E2307 /* Pods-xhwIMTest_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2696E5AB1358CCB597BE267B841908F1 /* Pods-xhwIMTest_Tests.modulemap */,
+				64870D7BC901D1BCC3DD8BB006947994 /* Pods-xhwIMTest_Tests-acknowledgements.markdown */,
+				59A8E0499796CF95E777680D640E85F7 /* Pods-xhwIMTest_Tests-acknowledgements.plist */,
+				77F8C45BD7E59C05734007395D4E8F48 /* Pods-xhwIMTest_Tests-dummy.m */,
+				6CCFA8F921F28D6CA1C4DF80F8D69BC9 /* Pods-xhwIMTest_Tests-frameworks.sh */,
+				64E29E92CCFD23CFF42E1484A2F57B72 /* Pods-xhwIMTest_Tests-Info.plist */,
+				B03E883385E7367E3992C00D8ECC966C /* Pods-xhwIMTest_Tests-umbrella.h */,
+				973F2AA6CF66CDF710653A8AAC310367 /* Pods-xhwIMTest_Tests.debug.xcconfig */,
+				FC76E38DAD6A8FF436273D36DBC8A9EB /* Pods-xhwIMTest_Tests.release.xcconfig */,
+			);
+			name = "Pods-xhwIMTest_Tests";
+			path = "Target Support Files/Pods-xhwIMTest_Tests";
+			sourceTree = "<group>";
+		};
+		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		8F56DA8C316CD50120CF04DEDF4B574C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3318125794CB167D1076CBD37969D116 /* Foundation.framework */,
+				1F1DABDE6CE07E95DF00FCBFBF24B6C6 /* QuartzCore.framework */,
+				A5F21F00D1A6FA52B283E314ABA9F57C /* UIKit.framework */,
+				0C394016BDB17B8CFF07AC2B773D1863 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
+				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
+				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		992745E16A2F072218C562B5F742B4BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C987EB3EFF4B21E53EC2E83D13063D /* WBXNIM.modulemap */,
+				9365CB96B1DA4F340322BC9259434977 /* WBXNIM.xcconfig */,
+				B582E0BA3AB698B72163A5BF16F3EF84 /* WBXNIM-dummy.m */,
+				4C645C2F9C0CD1054E38C9A84FBD318A /* WBXNIM-Info.plist */,
+				578F5BCC2A8707D717ACCD01D357EC34 /* WBXNIM-prefix.pch */,
+				C0115882EEB2E348944C0BE4FDBF7C23 /* WBXNIM-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../xhwIMTest/Example/Pods/Target Support Files/WBXNIM";
+			sourceTree = "<group>";
+		};
+		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
+				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
+				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
+				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
+				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
+				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
+				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
+				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
+				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
+				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
+				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
+				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
+				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
+				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9FCB5797077A741DF2909418A940F815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				E7835F9512FB6373B8A19F0DEF84649D /* Pods_xhwIMTest_Example.framework */,
+				74D38C96403712147DB0FA1066068435 /* Pods_xhwIMTest_Tests.framework */,
+				0D665C535E6D0BF4604DC55AAF52FE99 /* WBXNIM.framework */,
+				94DE6C2B4D039F904D4ADF4024A3ED80 /* xhwIMTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D1443AA96947DCC515CAA664068364 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9EC8AD022DA1E62D38FE7FE6D433851A /* NtalkerPush.h */,
+				5E4FE7F06FCB0E06B59C1C2FFAB24875 /* NtalkerPushManager.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		BF0098C921F08F6DD98DBE8FFA2F07BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				55A7C9F301A5DB9B76699B0181B2437A /* LICENSE */,
+				256EF2C7F7F49B3FC7026C58B333C863 /* README.md */,
+				DB481F798BE7FEDA027487868F1E710B /* xhwIMTest.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D9D352BF36248EF7AF00831E24FCFA59 /* Development Pods */,
+				F38486BFB49F16C2E9AAA29B108FDAAB /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				9FCB5797077A741DF2909418A940F815 /* Products */,
+				58E4747288F7C3B78C25B68B9595105D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D442AE9A32B43FE4E57FEB1D5CAAD8E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C73171AE4348D8C340EB16223B14B1AF /* LICENSE */,
+				FB5CECA7E94C592F1D903C069F622CD6 /* README.md */,
+				E214595309A2645B9A3B6D90702748C0 /* WBXNIM.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D591EA34929449D942FBF0862E58EB43 /* NTalkerIMCore.framework */ = {
+			isa = PBXGroup;
+			children = (
+				F506EBA2F6F7F86F0FBC5AC95D027DE8 /* CMakeLists.txt */,
+				EED126FD8F0C431D720DE02211129CFE /* Info.plist */,
+				AF36939439B0C46E4DFE17E2413FD83A /* linker.version */,
+				81AE3EAC56E3AD11ADBF8CFE04E9CE71 /* NTalkerIMCore */,
+				206A62772A43389F0D008F842305617D /* Headers */,
+				3EB0EEBAEACF72743030876F02214B18 /* Modules */,
+			);
+			name = NTalkerIMCore.framework;
+			path = WBXNIM/Classes/NTalkerIMCore.framework;
+			sourceTree = "<group>";
+		};
+		D9D352BF36248EF7AF00831E24FCFA59 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B5472B71978354A9E8AFE3A9E36722C /* WBXNIM */,
+				5BE0B12A99B6A942F25DAD9BD99AD67E /* xhwIMTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DE184CC45FC0DA755114501FE1F285AC /* Lanage */ = {
+			isa = PBXGroup;
+			children = (
+				29AEF3C3AF223875DAAC990C84831A28 /* XNLocalizable.strings */,
+			);
+			name = Lanage;
+			path = WBXNIM/Classes/Lanage;
+			sourceTree = "<group>";
+		};
+		E609AEBCDC271C3D6BEC6B5354810DC5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9CE22CA449A27CBDED486CE92AC04679 /* module.modulemap */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F38486BFB49F16C2E9AAA29B108FDAAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F062DE4CEB9D9FE11A19CF391A88D0D /* WBXNIM.framework */,
+				8F56DA8C316CD50120CF04DEDF4B574C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BADB220EEB008EE0FD9A7EE1E070E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B9788C94D92799656BA258C68F9597 /* Pods-xhwIMTest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C469EA94CFA37506988CAEE10780AE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B740B80E4BF6277431EACF51F613DA /* MessageType.h in Headers */,
+				304BE6C405A73BAFE2254532EBF7D297 /* NSObject+NTalkerClass.h in Headers */,
+				6106472A9975B78958153948465B21A8 /* NSObject+NTalkerCoding.h in Headers */,
+				75056FDD11ED419BA089B06B86FA993E /* NSObject+NTalkerKeyValue.h in Headers */,
+				497FCD0176C4211595DEEA3CBE39E8BA /* NSObject+NTalkerProperty.h in Headers */,
+				0F1814765CAF6D92102D6289B0FC7202 /* NSString+NTalkerExtension.h in Headers */,
+				433C03D7ED8DD88A436AD02BD4DA42E4 /* Ntalker.h in Headers */,
+				DF2A6A1E8FC0B47F3AC581B81820B942 /* NtalkerASLLogCapture.h in Headers */,
+				7C67C020DAF6A12ED41672175282EA03 /* NtalkerASLLogger.h in Headers */,
+				394F2025EC1066CFB2FDF4D271C22689 /* NtalkerAssertMacros.h in Headers */,
+				BBF20CAE38DCBAB90FB7FFB5F383D9B6 /* NtalkerChatDelegate.h in Headers */,
+				CA8480328128C6CE67D57C8EA582DC86 /* NtalkerChatParams.h in Headers */,
+				B4B69ADD2A2F1CB1F279ADF4FA188D65 /* NTalkerChatTableHeaderModel.h in Headers */,
+				37E316086CA741FC9AC9C6D2E194184C /* NtalkerCocoaLumberjack.h in Headers */,
+				5FA843D03A6E4ED401ECF9C91C10EF66 /* NtalkerConfigureInfo.h in Headers */,
+				7431587BA87D9AF4662D66A126122136 /* NtalkerConsultRecord.h in Headers */,
+				E242B05F6AEFA9768CFAB99208736704 /* NtalkerCoreConstant.h in Headers */,
+				01A4EC65F240C2628B1EEB85680A3E94 /* NtalkerCoreLog.h in Headers */,
+				0BE25CB8F664AEA849DEE2A03831BAC2 /* NtalkerCoreMessage.h in Headers */,
+				5926F4DE28C8A8BA2206A020AABFC276 /* NtalkerDBManager.h in Headers */,
+				BC111586E2BACE443D9788278A0652BD /* NtalkerDeviceModel.h in Headers */,
+				40845C1BDC83E5A03A4186F3ED01126B /* NtalkerErrorCode.h in Headers */,
+				CBEEF8AA7CB5B588D16B5388633626BA /* NtalkerEvaluateSetInfoModel.h in Headers */,
+				6F356B027B5EA7C4BD9B3540A48137A5 /* NtalkerEventModel.h in Headers */,
+				66638476A51E0E2FD659133F9939A7E8 /* NTalkerExtension.h in Headers */,
+				B0799099072A04D401AE19C0B245AD0A /* NTalkerExtensionConst.h in Headers */,
+				5BEC2A63086CD1739C09D0467B28F8BF /* NtalkerFileLogger.h in Headers */,
+				176870AB88210984F9C1615B73ED5092 /* NtalkerFlashServerModel.h in Headers */,
+				A3012F4D85DA0AF38F71E943EFF78175 /* NTalkerGuestIMKit.h in Headers */,
+				18E122E124215B489DC011795BE3C9C7 /* NtalkerHTTPReportPushStatusTool.h in Headers */,
+				827B49C19BD50A46785EC3D679D7C2E1 /* NtalkerHTTPTool.h in Headers */,
+				D1CB851E7ABDB9A654BC83E0B7EEBE26 /* NtalkerIMCenter.h in Headers */,
+				52F2AD78C78AA21CC7CE0076326DCC5B /* NTalkerIMCore.h in Headers */,
+				EDCFF312A24BB3CC0BA3DAEA415E858F /* NtalkerLeaveMessageController.h in Headers */,
+				76DCF7A9FC843408ADEA42FEDCBAF9A0 /* NtalkerLeaveMsgDetailModel.h in Headers */,
+				445078CFA503270B05AE05960F4CDEEA /* NtalkerLeaveMsgSetInfoModel.h in Headers */,
+				E39804857A3D6D2F58C7774BC743BABB /* NtalkerLog.h in Headers */,
+				96EE0F2F27230FF8511085416B5661CC /* NtalkerLogLib.h in Headers */,
+				B60BA43838520B5ECA51D04F90234A53 /* NtalkerLogMacros.h in Headers */,
+				72C335F1FCE276D4CC63C35255439667 /* NtalkerLogTag.h in Headers */,
+				EDB14A5696997B622EBD22A4A5606242 /* NTalkerProperty.h in Headers */,
+				CCB6FA3DC5D548D09683569E3A11D32C /* NTalkerPropertyKey.h in Headers */,
+				D72F691564335B582665045A8BC73843 /* NTalkerPropertyType.h in Headers */,
+				72C2BA7C7C33EF9AE4526B79EA967354 /* NtalkerPush.h in Headers */,
+				6E24803DB797FE47194AFA30F9D46F27 /* NtalkerPushManager.h in Headers */,
+				8A0BC02EF87949DF83E72A202CA2D6D7 /* NtalkerSDKCore.h in Headers */,
+				A4C15BB35A3A5459278D91ED4F1F1120 /* NtalkerSiteInfo.h in Headers */,
+				DA0F67F316AF3C3D355D004D5F88E771 /* NtalkerStorageManager.h in Headers */,
+				A8C92E4EC9905F1607C5CC58605F0275 /* NtalkerTemplateRecord.h in Headers */,
+				898131BB71E35F477DE910C2F66BD4B1 /* NtalkerTrailModel.h in Headers */,
+				4D4AEABC6107DFEE6AC39D65C09FA7E4 /* NtalkerTTYLogger.h in Headers */,
+				6AE5937E2C64017D997E6622C43DA44D /* NtalkerUIConfig.h in Headers */,
+				A9AED123A4B4EE4ECA101F485DC2F67A /* NtalkerUserInfo.h in Headers */,
+				2CA488C51E438904D20F9A2AD100E109 /* NtalkerUtilityHelper.h in Headers */,
+				6C425AD3EC0D011C09EA283DA1680094 /* WBIMManager.h in Headers */,
+				B41781AF4FD455A333A3182D5BE8E719 /* WBXNIM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC97C4E3000EA8D5CC5B2F029A1A486 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CFD5909154D7B3FC7F33A6761F82A9 /* Pods-xhwIMTest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C7943E80E14369F234930AF2AC921C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6048A828F53B439D5725626B3218E200 /* xhwIMTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59BB784AD4CDD820E21E564FA90E2993 /* xhwIMTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A15D9930EE0413B97F7162AB644B473 /* Build configuration list for PBXNativeTarget "xhwIMTest" */;
+			buildPhases = (
+				F2C7943E80E14369F234930AF2AC921C /* Headers */,
+				E023B89085DBECAFEAE2CD7B58CD0093 /* Sources */,
+				2798DBCBC3A6E7C55E22B8435B83C4B4 /* Frameworks */,
+				018F5F814AEF70FD57442DCE7F04DC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD69160292F1FD8837CB60779D93BB89 /* PBXTargetDependency */,
+			);
+			name = xhwIMTest;
+			productName = xhwIMTest;
+			productReference = 94DE6C2B4D039F904D4ADF4024A3ED80 /* xhwIMTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87A395F350C6B072CD9864D2712C7DD0 /* WBXNIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7D87A536CDC1F7E6114DB694C8CAEA /* Build configuration list for PBXNativeTarget "WBXNIM" */;
+			buildPhases = (
+				9C469EA94CFA37506988CAEE10780AE7 /* Headers */,
+				24C33220B0BCEFB2E28DF76B4AF5DD92 /* Sources */,
+				FA1031B29E90414A5921B96636F3C2B7 /* Frameworks */,
+				A0A0492F98976FE31250C05143E45820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBXNIM;
+			productName = WBXNIM;
+			productReference = 0D665C535E6D0BF4604DC55AAF52FE99 /* WBXNIM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D06E3B7FC6FB0BEFF487202A397369E /* Pods-xhwIMTest_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739CE69057056369A95A6ECBF62C8925 /* Build configuration list for PBXNativeTarget "Pods-xhwIMTest_Tests" */;
+			buildPhases = (
+				CDC97C4E3000EA8D5CC5B2F029A1A486 /* Headers */,
+				F493FDDAF4FBE577F4F6AE530725775F /* Sources */,
+				4DC69412570C9AED6C09732D6ACE514F /* Frameworks */,
+				6BBFE4CC511DE0061A9EBFE51124E7B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C05A00A8571031D9A30597DA7FF3003 /* PBXTargetDependency */,
+				954F68DAC292EFD3F74727B712897EA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-xhwIMTest_Tests";
+			productName = "Pods-xhwIMTest_Tests";
+			productReference = 74D38C96403712147DB0FA1066068435 /* Pods_xhwIMTest_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		945E4D03CCB4027199AD4184889F0CF1 /* Pods-xhwIMTest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB9ED4356358BA162BA18BC3E6B2BE4 /* Build configuration list for PBXNativeTarget "Pods-xhwIMTest_Example" */;
+			buildPhases = (
+				94BADB220EEB008EE0FD9A7EE1E070E1 /* Headers */,
+				CF3DEFCFB6B130F96AA946422402F37A /* Sources */,
+				59EFE42F49CDA8BE680FEB7D9E7A0072 /* Frameworks */,
+				2B6A61D229B7D1A889801E7BEB28C022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D71F9107AAF273E5CE009F4A66C111 /* PBXTargetDependency */,
+				99460B30F88F2F807F824894669AC438 /* PBXTargetDependency */,
+			);
+			name = "Pods-xhwIMTest_Example";
+			productName = "Pods-xhwIMTest_Example";
+			productReference = E7835F9512FB6373B8A19F0DEF84649D /* Pods_xhwIMTest_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9FCB5797077A741DF2909418A940F815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				945E4D03CCB4027199AD4184889F0CF1 /* Pods-xhwIMTest_Example */,
+				8D06E3B7FC6FB0BEFF487202A397369E /* Pods-xhwIMTest_Tests */,
+				87A395F350C6B072CD9864D2712C7DD0 /* WBXNIM */,
+				59BB784AD4CDD820E21E564FA90E2993 /* xhwIMTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		018F5F814AEF70FD57442DCE7F04DC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6A61D229B7D1A889801E7BEB28C022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BBFE4CC511DE0061A9EBFE51124E7B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A0492F98976FE31250C05143E45820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C33220B0BCEFB2E28DF76B4AF5DD92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5068461035F0E8882D8A9E02DE1A6CD7 /* CMakeLists.txt in Sources */,
+				3B1490D71003EDCE114E3D421CED4A74 /* Info.plist in Sources */,
+				3B1490D71003EDCE114E3D421CED4A74 /* Info.plist in Sources */,
+				3B1490D71003EDCE114E3D421CED4A74 /* Info.plist in Sources */,
+				08ECDDAD24617760EF753D5BC342B079 /* linker.version in Sources */,
+				610CCA8916675FCFF2EC86C272518F3F /* module.modulemap in Sources */,
+				610CCA8916675FCFF2EC86C272518F3F /* module.modulemap in Sources */,
+				610CCA8916675FCFF2EC86C272518F3F /* module.modulemap in Sources */,
+				A67585E8458A575F3E7BF2E5F27E4709 /* NTalkerGuestIMKit in Sources */,
+				AB0B7C4B3BD5EAF625FD1DFFA64A4232 /* NTalkerIMCore in Sources */,
+				28437FC9FBE5A11F9A1E61789285408B /* NtalkerPush in Sources */,
+				CFF1F949B0252DE29568FBCD2A25AD27 /* WBIMManager.m in Sources */,
+				9114EF1B94B3062A346C32C3E222C80E /* WBXNIM-dummy.m in Sources */,
+				E24DCFEAE78EA63D1AD49DFC7B7E7AF3 /* XNLocalizable.strings in Sources */,
+				459C0361A199DDFE654CE70FD27EB75F /* XNLocalizable.strings in Sources */,
+				617A719EE8C693FF24B2CD200FBC5C53 /* XNLocalizable.strings in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DEFCFB6B130F96AA946422402F37A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BE925AE9FB6DF2FFE45E098E77FB32 /* Pods-xhwIMTest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E023B89085DBECAFEAE2CD7B58CD0093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EC31F114309FFC7FA11E7D79F07F7E /* ReplaceMe.m in Sources */,
+				89AD3DBE5FDCD3B227D714D4A97830AA /* xhwIMTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F493FDDAF4FBE577F4F6AE530725775F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6F1C227BA0CD1DDBA6F360ED228C81 /* Pods-xhwIMTest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D71F9107AAF273E5CE009F4A66C111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBXNIM;
+			target = 87A395F350C6B072CD9864D2712C7DD0 /* WBXNIM */;
+			targetProxy = 33ADD7FD2495DF4F4355665CA2681CF0 /* PBXContainerItemProxy */;
+		};
+		5C05A00A8571031D9A30597DA7FF3003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 618C4CBF4AD8B93DF47C03A07D7C84B3 /* PBXContainerItemProxy */;
+		};
+		954F68DAC292EFD3F74727B712897EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-xhwIMTest_Example";
+			target = 945E4D03CCB4027199AD4184889F0CF1 /* Pods-xhwIMTest_Example */;
+			targetProxy = CFB465C6CA34AF14B7A26343ECCBCAFF /* PBXContainerItemProxy */;
+		};
+		99460B30F88F2F807F824894669AC438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = xhwIMTest;
+			target = 59BB784AD4CDD820E21E564FA90E2993 /* xhwIMTest */;
+			targetProxy = 511E6C4B2BCB4FCEFBA1C37D57E0D486 /* PBXContainerItemProxy */;
+		};
+		CD69160292F1FD8837CB60779D93BB89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBXNIM;
+			target = 87A395F350C6B072CD9864D2712C7DD0 /* WBXNIM */;
+			targetProxy = 71227C9B603E561CD0EED3BB93EC6CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29AEF3C3AF223875DAAC990C84831A28 /* XNLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A161454FFD383197B5FCAF350EF58797 /* XNLocalizable.strings */,
+				EF45271AADFD4EE813865A789C827387 /* XNLocalizable.strings */,
+				4B82946D4CD106803AA1EDF38E8019F3 /* XNLocalizable.strings */,
+			);
+			name = XNLocalizable.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C2D41D3169140435421AC49761C040D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9365CB96B1DA4F340322BC9259434977 /* WBXNIM.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBXNIM/WBXNIM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBXNIM/WBXNIM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBXNIM/WBXNIM.modulemap";
+				PRODUCT_MODULE_NAME = WBXNIM;
+				PRODUCT_NAME = WBXNIM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F3458164BDE131352F6C8AA21A23C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC76E38DAD6A8FF436273D36DBC8A9EB /* Pods-xhwIMTest_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-xhwIMTest_Tests/Pods-xhwIMTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xhwIMTest_Tests/Pods-xhwIMTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8D448AB3339AC1397A4EB6CFF7979185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C45A5ED5B19AEDDF0D7D19AC5D27053 /* xhwIMTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/xhwIMTest/xhwIMTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/xhwIMTest/xhwIMTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/xhwIMTest/xhwIMTest.modulemap";
+				PRODUCT_MODULE_NAME = xhwIMTest;
+				PRODUCT_NAME = xhwIMTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90806EB1D8BC1896BBDDB6AA13933806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F122EBA9AE1967C00736F36AF9EDFC /* Pods-xhwIMTest_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-xhwIMTest_Example/Pods-xhwIMTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xhwIMTest_Example/Pods-xhwIMTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1EC09BACCC04788B245AF5612426879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C45A5ED5B19AEDDF0D7D19AC5D27053 /* xhwIMTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/xhwIMTest/xhwIMTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/xhwIMTest/xhwIMTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/xhwIMTest/xhwIMTest.modulemap";
+				PRODUCT_MODULE_NAME = xhwIMTest;
+				PRODUCT_NAME = xhwIMTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A980F72B0EEA27A5D73C138AAFFDFF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973F2AA6CF66CDF710653A8AAC310367 /* Pods-xhwIMTest_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-xhwIMTest_Tests/Pods-xhwIMTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xhwIMTest_Tests/Pods-xhwIMTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFF8600E4733DBDBE3D2B64FF7882C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9365CB96B1DA4F340322BC9259434977 /* WBXNIM.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBXNIM/WBXNIM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBXNIM/WBXNIM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBXNIM/WBXNIM.modulemap";
+				PRODUCT_MODULE_NAME = WBXNIM;
+				PRODUCT_NAME = WBXNIM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB19066711BBB9A77998DAA4D2320C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEAB33F57ABC9D923C30CF63D8821112 /* Pods-xhwIMTest_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-xhwIMTest_Example/Pods-xhwIMTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xhwIMTest_Example/Pods-xhwIMTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A15D9930EE0413B97F7162AB644B473 /* Build configuration list for PBXNativeTarget "xhwIMTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D448AB3339AC1397A4EB6CFF7979185 /* Debug */,
+				A1EC09BACCC04788B245AF5612426879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739CE69057056369A95A6ECBF62C8925 /* Build configuration list for PBXNativeTarget "Pods-xhwIMTest_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A980F72B0EEA27A5D73C138AAFFDFF8E /* Debug */,
+				3F3458164BDE131352F6C8AA21A23C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE252C6C51286892441EE171776C7E81 /* Debug */,
+				6981B49048575F8238B3C5B905C918E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7D87A536CDC1F7E6114DB694C8CAEA /* Build configuration list for PBXNativeTarget "WBXNIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2D41D3169140435421AC49761C040D /* Debug */,
+				AFF8600E4733DBDBE3D2B64FF7882C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB9ED4356358BA162BA18BC3E6B2BE4 /* Build configuration list for PBXNativeTarget "Pods-xhwIMTest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90806EB1D8BC1896BBDDB6AA13933806 /* Debug */,
+				CB19066711BBB9A77998DAA4D2320C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

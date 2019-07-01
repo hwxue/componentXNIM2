@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WBXNIM (0.1.0)
+  - xhwIMTest (0.1.0):
+    - WBXNIM
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WBXNIM (from `../../WBXNIM`)
+  - xhwIMTest (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WBXNIM:
+    :path: "../../WBXNIM"
+  xhwIMTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WBXNIM: 204cee1a27eccb9ba11287808e5750c97213a1e5
+  xhwIMTest: 578698522ee16603875c02854e9cfcbcf06b2e07
+
+PODFILE CHECKSUM: d99e63c6eccb6f2acee714477c82897a94dcfa34
+
+COCOAPODS: 1.7.2

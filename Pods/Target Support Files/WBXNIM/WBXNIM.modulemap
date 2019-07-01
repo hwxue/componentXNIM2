@@ -1,0 +1,6 @@
+framework module WBXNIM {
+  umbrella header "WBXNIM-umbrella.h"
+
+  export *
+  module * { export * }
+}
